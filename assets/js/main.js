@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	$('#menuPopout').click(function(){
+	$('#menuPopout').bind('touchstart', function(){
 		$('#actionBar').toggleClass('open');
 	});
 });
