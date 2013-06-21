@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.daleyjem.phonegap.hellophonegap"
+        version   = "0.1.0">
+
+    <name>Hello PhoneGap</name>
+
+    <description>
+    	Hello World sample application for messing around with shit.
+    </description>
+
+    <author href="http://phonegap.com" email="support@phonegap.com">
+        Daleyjem
+    </author>
+
+    <preference name="permissions" value="none"/>
+
+    <!-- Plugins can also be added here. -->
+    <gap:plugin name="BarcodeScanner" />
+</widget>
