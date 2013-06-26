@@ -1,8 +1,8 @@
 var clickAction;
 
 document.addEventListener('deviceready', function(){
-	clickAction = 'touchstart'; //Modernizr.touch ? 'touchstart' : 'click';
-	$('#menuPopout').bind(clickAction, function(){
+	clickAction = Modernizr.touch ? 'touchstart' : 'click';
+	$('#menuPopout')[0].addEventlistener(clickAction, function(){
 		$('#actionBar').toggleClass('open');
 	});
 });
