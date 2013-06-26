@@ -17,6 +17,8 @@
 
     <preference name="permissions" value="none"/>
 
+	<icon src="assets/images/icon-fish.png" />
+
     <!-- Plugins can also be added here. -->
     <gap:plugin name="BarcodeScanner" />
 </widget>
